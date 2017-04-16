@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>mlsp_trail_junctions_april_2017-rev1.kml</name>
+	<Schema name="mlsp_trail_junctions_april_2017_rev1" id="mlsp_trail_junctions_april_2017_rev1">
+		<SimpleField type="string" name="Name"></SimpleField>
+		<SimpleField type="int" name="node_id"></SimpleField>
+		<SimpleField type="string" name="name"></SimpleField>
+		<SimpleField type="string" name="metadata_n"></SimpleField>
+		<SimpleField type="string" name="common_nam"></SimpleField>
+		<SimpleField type="string" name="trip_name"></SimpleField>
+		<SimpleField type="string" name="poi_type_n"></SimpleField>
+		<SimpleField type="string" name="administra"></SimpleField>
+		<SimpleField type="string" name="descriptio"></SimpleField>
+		<SimpleField type="string" name="recorded_o"></SimpleField>
+		<SimpleField type="string" name="created_on"></SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff01ffdd</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff01ffdd</color>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>mlsp_trail_junctions_april_2017_rev1</name>
+		<Placemark>
+			<name>s8</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">134</SimpleData>
+					<SimpleData name="node_id">50535</SimpleData>
+					<SimpleData name="metadata_n">134</SimpleData>
+					<SimpleData name="common_nam">trail-junction S8</SimpleData>
+					<SimpleData name="trip_name">MLSP-Hike</SimpleData>
+					<SimpleData name="poi_type_n">human-activity-trail-junction</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">trail-junction; trail junction with white trail</SimpleData>
+					<SimpleData name="recorded_o">2015-08-15 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2016-05-22 07:57:41.842272-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.74996400000001,43.228826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">139</SimpleData>
+					<SimpleData name="node_id">50560</SimpleData>
+					<SimpleData name="metadata_n">139</SimpleData>
+					<SimpleData name="common_nam">trail-junction S9</SimpleData>
+					<SimpleData name="trip_name">MLSP-Hike</SimpleData>
+					<SimpleData name="poi_type_n">human-activity-trail-junction</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">trail-junction; trail junction s9</SimpleData>
+					<SimpleData name="recorded_o">2015-08-15 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2016-05-22 07:57:48.498653-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.75366699999999,43.222783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">18</SimpleData>
+					<SimpleData name="node_id">53470</SimpleData>
+					<SimpleData name="metadata_n">428</SimpleData>
+					<SimpleData name="common_nam">832</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction K2</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72524639980567,43.23026014226977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">21</SimpleData>
+					<SimpleData name="node_id">53485</SimpleData>
+					<SimpleData name="metadata_n">431</SimpleData>
+					<SimpleData name="common_nam">835</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S3</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73314404,43.22924903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s16</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">23</SimpleData>
+					<SimpleData name="node_id">53495</SimpleData>
+					<SimpleData name="metadata_n">433</SimpleData>
+					<SimpleData name="common_nam">837</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S16</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73566498,43.233976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k10</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">27</SimpleData>
+					<SimpleData name="node_id">53515</SimpleData>
+					<SimpleData name="metadata_n">437</SimpleData>
+					<SimpleData name="common_nam">841</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Unmarked Junction</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.726809,43.23517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s17</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">24</SimpleData>
+					<SimpleData name="node_id">53500</SimpleData>
+					<SimpleData name="metadata_n">434</SimpleData>
+					<SimpleData name="common_nam">838</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S17</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73613998,43.23499901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s10</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">26</SimpleData>
+					<SimpleData name="node_id">53510</SimpleData>
+					<SimpleData name="metadata_n">436</SimpleData>
+					<SimpleData name="common_nam">840</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S10</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73118603,43.23985901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">2</SimpleData>
+					<SimpleData name="node_id">53390</SimpleData>
+					<SimpleData name="metadata_n">412</SimpleData>
+					<SimpleData name="common_nam">818</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">umarked junction K6</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72288501,43.24398198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s11</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">5</SimpleData>
+					<SimpleData name="node_id">53405</SimpleData>
+					<SimpleData name="metadata_n">415</SimpleData>
+					<SimpleData name="common_nam">820</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S11</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72054998,43.24221097,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">7</SimpleData>
+					<SimpleData name="node_id">53415</SimpleData>
+					<SimpleData name="metadata_n">417</SimpleData>
+					<SimpleData name="common_nam">821</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction K5</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72107603000001,43.23609998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">126</SimpleData>
+					<SimpleData name="node_id">50495</SimpleData>
+					<SimpleData name="metadata_n">126</SimpleData>
+					<SimpleData name="common_nam">trail-junction S6</SimpleData>
+					<SimpleData name="trip_name">MLSP-Hike</SimpleData>
+					<SimpleData name="poi_type_n">human-activity-trail-junction</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">trail; trail junction</SimpleData>
+					<SimpleData name="recorded_o">2015-08-15 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2016-05-22 07:56:34.959447-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.734706,43.235731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">14</SimpleData>
+					<SimpleData name="node_id">53450</SimpleData>
+					<SimpleData name="metadata_n">424</SimpleData>
+					<SimpleData name="common_nam">828</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction K4</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.71932999000001,43.22781597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">10</SimpleData>
+					<SimpleData name="node_id">53430</SimpleData>
+					<SimpleData name="metadata_n">420</SimpleData>
+					<SimpleData name="common_nam">823</SimpleData>
+					<SimpleData name="trip_name">mlsp-turkey-path</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Junction S1</SimpleData>
+					<SimpleData name="recorded_o">2017-03-26 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2017-03-26 00:00:00-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72075098000001,43.23536304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">147</SimpleData>
+					<SimpleData name="node_id">50600</SimpleData>
+					<SimpleData name="metadata_n">147</SimpleData>
+					<SimpleData name="common_nam">trail-junction S9</SimpleData>
+					<SimpleData name="trip_name">MLSP-Hike</SimpleData>
+					<SimpleData name="poi_type_n">human-activity-trail-junction</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">bbd; trail junction; stand of beech</SimpleData>
+					<SimpleData name="recorded_o">2015-08-15 00:00:00-04</SimpleData>
+					<SimpleData name="created_on">2016-05-22 07:57:51.850845-04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.739065,43.225197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>k11</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="node_id">1</SimpleData>
+					<SimpleData name="common_nam">k11</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.76491113168521,43.2187298661058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>u3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="node_id">4</SimpleData>
+					<SimpleData name="poi_type_n">junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.7680248596821,43.21124369376729,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>u2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="node_id">3</SimpleData>
+					<SimpleData name="poi_type_n">junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.76082240294768,43.20582634398583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>u1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="node_id">2</SimpleData>
+					<SimpleData name="poi_type_n">junction</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.7674487125992,43.20525196243155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s13</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">S13</SimpleData>
+					<SimpleData name="node_id">6</SimpleData>
+					<SimpleData name="common_nam">Junction S13</SimpleData>
+					<SimpleData name="poi_type_n">Trail-Junction</SimpleData>
+					<SimpleData name="descriptio">Junction S13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.75761913634911,43.22194852175555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s7</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="node_id">5</SimpleData>
+					<SimpleData name="poi_type_n">Trail Junction 7</SimpleData>
+					<SimpleData name="administra">MLSP</SimpleData>
+					<SimpleData name="descriptio">Trail Junction 7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.74640500118449,43.232681872428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s14</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S14</SimpleData>
+					<SimpleData name="node_id">14</SimpleData>
+					<SimpleData name="common_nam">Junction S14</SimpleData>
+					<SimpleData name="poi_type_n">trail-junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73681673596265,43.24436001706926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s15</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S15</SimpleData>
+					<SimpleData name="node_id">15</SimpleData>
+					<SimpleData name="common_nam">Junction S15</SimpleData>
+					<SimpleData name="poi_type_n">trail-junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73139338051,43.24564838080656,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S1</SimpleData>
+					<SimpleData name="node_id">12</SimpleData>
+					<SimpleData name="common_nam">Junction S1</SimpleData>
+					<SimpleData name="poi_type_n">trail-junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.71853374806867,43.23090429164077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S2</SimpleData>
+					<SimpleData name="node_id">10</SimpleData>
+					<SimpleData name="common_nam">Junction S2</SimpleData>
+					<SimpleData name="poi_type_n">trail-junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72431304550749,43.23233413935166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s12</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S12</SimpleData>
+					<SimpleData name="node_id">12</SimpleData>
+					<SimpleData name="common_nam">Junction S12</SimpleData>
+					<SimpleData name="poi_type_n">trail-junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.71294503777223,43.24255518169674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>s5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#mlsp_trail_junctions_april_2017_rev1">
+					<SimpleData name="Name">Junction S5</SimpleData>
+					<SimpleData name="node_id">33</SimpleData>
+					<SimpleData name="common_nam">Junction S5</SimpleData>
+					<SimpleData name="poi_type_n">trail junction</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.74060295356574,43.22725514000965,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>moreau_lake_state_park_trail_access_parking.kml</name>
+	<Schema name="moreau_lake_state_park_trail_access_parking" id="moreau_lake_state_park_trail_access_parking">
+		<SimpleField type="int" name="id"></SimpleField>
+		<SimpleField type="string" name="descr"></SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>moreau_lake_state_park_trail_access_parking</name>
+		<Placemark>
+			<name>Corinth Mountain Road Trailhead Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">1</SimpleData>
+					<SimpleData name="descr">Corinth-Wilton Mountain Road Trailhead Parking. Lake Bonita Trailhead. Large parking area opened in the summer of 2016.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.76772916846458,43.2033650001078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spier Falls Road - Western Ridge Trail North End Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">5</SimpleData>
+					<SimpleData name="descr">Spier Falls Road - Western Ridge Trail North End Parking. At the high point where Spier Falls Road crosses the Palmertown Ridge.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.72518393804704,43.24743438082918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spier Falls Road - Sherman Island Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">4</SimpleData>
+					<SimpleData name="descr">Spier Falls Road - Sherman Island Parking. A large parking area along the Hudson River provides access to the Cottage Park Trailhead.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73864222759343,43.24875778260084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hawk Road - Stonewall Trail Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">3</SimpleData>
+					<SimpleData name="descr">Hawk Road - Stonewall Trail Parking. Main parking area for access to areas east of the Hudson River. Access is via a .5 mile gravel road at the end of Hawk Road.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.77495548461458,43.23800407773091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spier Falls Road - Western Ridge Trail Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">2</SimpleData>
+					<SimpleData name="descr">Spier Falls Road - Western Ridge Trail Parking.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.76483517841415,43.22090808873534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moreau Lake State Park Entrance Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">8</SimpleData>
+					<SimpleData name="descr">Moreau Lake State Park Entrance Parking. Off season parking when the park roads are closed.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.70825994110314,43.22637997136206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moreau Lake State Park Beach Area Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">7</SimpleData>
+					<SimpleData name="descr">Moreau Lake State Park Beach Area Parking. The main parking area for the beach and picnic areas of Moreau Lake State Park. Requiers an entrance fee.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.71473547093214,43.23394970526898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spier Falls Road - Mud Pond Parking</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">6</SimpleData>
+					<SimpleData name="descr">Spier Falls Road - Mud Pond Parking. Informal Parking at a pull-out along Spier Falls Road.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.7108110875398,43.24598296194184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Call Street Pulloff</name>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#moreau_lake_state_park_trail_access_parking">
+					<SimpleData name="id">9</SimpleData>
+					<SimpleData name="descr">Call Street Pulloff. A large pulloff on Call Street provides access to the area east of the Hudson. There are no marked trails but informal paths are present.</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.74317603674732,43.26862700248563,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
